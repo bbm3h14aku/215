@@ -1,0 +1,14 @@
+
+1- Kamera
+	-frei miot der Maus schwenkbar Schwenkbar
+	-fixe position in der kugel (sieht quasi nur die innenseite der Kugel
+1 - Kugel 
+	-hat x viele Texturen, es wird nur eine angezeigt
+		-jede textur hat positionen innerhalb der kugel 
+			die man anklicken kann um zur nächsten Textur zu wechseln
+			(bevorzugt der nächste standpunkt wo die nächste 
+			aufnahme gemacht wurde)
+		-Bei klicken mit dem mauszeiger auf eine der positionen wird
+			die dementsprechende textur geladen mit den dazugehörigen 
+			Positionen (Buttons) 
+		-eine Textur muss eine 360° aufnahme oder eine Panorama aufnahme sein
