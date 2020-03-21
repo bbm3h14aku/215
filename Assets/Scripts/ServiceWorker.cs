@@ -15,6 +15,7 @@ public class ServiceWorker : MonoBehaviour
     public int multiplic_page = 20;
 
     public GameObject hallPrefab;
+    public GameObject playerPrefab;
 
     // Called when the Object is initialized
     void Awake()
@@ -42,9 +43,10 @@ public class ServiceWorker : MonoBehaviour
         Vector3 size = hallPrefab.GetComponent<Collider>().bounds.size;
         Debug.Log("length=" + size);
 
-        for ( int i = 0; i < 5; i++)
+        Instantiate(playerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        for ( int i = 1; i <= 5; i++)
         {
-            Instantiate(hallPrefab, new Vector3(3 * i, -2, 0), Quaternion.identity);
+            Instantiate(hallPrefab, new Vector3(5 * i, 1, 0), Quaternion.identity);
         }
     }
 

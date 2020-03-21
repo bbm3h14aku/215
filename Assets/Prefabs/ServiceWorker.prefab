@@ -49,3 +49,5 @@ MonoBehaviour:
   multiplic_page: 20
   hallPrefab: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
     type: 3}
+  playerPrefab: {fileID: 9054898490453791288, guid: ea2469d88b5a96b5c995f5e7ba77330e,
+    type: 3}
