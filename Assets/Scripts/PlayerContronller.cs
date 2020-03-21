@@ -6,6 +6,7 @@ public class PlayerContronller : MonoBehaviour
 {
     public float walk_speed = 8f;
     public float jump_speed = 7f;
+
     // to keep our rigidbody
     Rigidbody rb;
     // to keep the collider
@@ -30,7 +31,10 @@ public class PlayerContronller : MonoBehaviour
         WalkHandler();
 
         // Handle Player Jumping
-        JumpHandler();
+        //JumpHandler();
+
+        // Handle Mouse Rotation
+        RotationHandler();
     }
 
     void OnTriggerEnter(Collider collider)
@@ -59,6 +63,20 @@ public class PlayerContronller : MonoBehaviour
         }
     }
 
+    void RotationHandler()
+    {
+        if ( Input.GetAxis("Mouse X") < 0 )
+        {
+            Debug.Log("handling Mouse movment left");
+            transform.Rotate(0, -90 * Time.deltaTime, 0);
+        }
+        else if ( Input.GetAxis("Mouse X") > 0)
+        {
+            Debug.Log("handling mouse movment right");
+            transform.Rotate(0, 90 * Time.deltaTime, 0);
+        }
+    }
+
     void WalkHandler()
     {
         rb.velocity = new Vector3(0, rb.velocity.y, 0);
@@ -74,6 +92,7 @@ public class PlayerContronller : MonoBehaviour
 
         // Movment Vector
         Vector3 movment = new Vector3(hAxis * distance, 0f, vAxis * distance);
+        //Vector3 movment = new Vector3(0f, 0f, vAxis * distance);
 
         // Current Position 
         Vector3 currPos = transform.position;
