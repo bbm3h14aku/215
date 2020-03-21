@@ -14,6 +14,9 @@ public class PlayerContronller : MonoBehaviour
 
     //GameManager gameManager;
 
+    //bewegungsgeschwindigkeit
+    float rotationSpeed = 50f;
+
     //flag to keep track of whether a jump started
     bool pressed_jump;
 
@@ -65,7 +68,7 @@ public class PlayerContronller : MonoBehaviour
 
     void RotationHandler()
     {
-        if ( Input.GetAxis("Mouse X") < 0 )
+        /*if ( Input.GetAxis("Mouse X") < 0 )
         {
             Debug.Log("handling Mouse movment left");
             transform.Rotate(0, -90 * Time.deltaTime, 0);
@@ -74,6 +77,20 @@ public class PlayerContronller : MonoBehaviour
         {
             Debug.Log("handling mouse movment right");
             transform.Rotate(0, 90 * Time.deltaTime, 0);
+        }*/
+
+        //Hole X und Y von der Maus
+        float horizontal = Input.GetAxis("Mouse X");
+        float vertical = Input.GetAxis("Mouse Y");
+
+        //Wenn linke Maustaste gedrückt
+        if (Input.GetMouseButton(0))
+        {
+            //rotiere die Kamera 
+            //Time.deltaTime: Sekunden seit dem letzten Frame
+            //Time.deltaTime * rotationSpeed: Damit sich die Maus gleichmäßig bewegt
+            transform.Rotate(-vertical * Time.deltaTime * rotationSpeed, 
+                        horizontal * Time.deltaTime * rotationSpeed, 0);
         }
     }
 
