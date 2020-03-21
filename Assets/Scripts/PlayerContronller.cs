@@ -36,6 +36,7 @@ public class PlayerContronller : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         //GameManager gameManager = GetComponent<GameManager>();
+        /*
         if ( collider.gameObject.tag == "Coin" )
         {
             print("grabbing coin ...");
@@ -49,10 +50,12 @@ public class PlayerContronller : MonoBehaviour
         {
             print("Game Over!");
         }
-        else if ( collider.gameObject.tag == "Goal" )
+        else
+        */
+        if ( collider.gameObject.tag == "Door" )
         {
             print("loading next level");
-            GameManager.instance.increaseLevel();
+            //GameManager.instance.increaseLevel();
         }
     }
 

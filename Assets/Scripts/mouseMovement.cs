@@ -11,7 +11,7 @@ public class mouseMovement : MonoBehaviour
     }
 
     //bewegungsgeschwindigkeit
-    float bewegungsgeschwindigkeitMaus = 15f;
+    float bewegungsgeschwindigkeitMaus = 50f;
 
 
     // Update is called once per frame
