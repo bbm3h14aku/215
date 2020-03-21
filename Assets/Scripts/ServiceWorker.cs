@@ -43,7 +43,7 @@ public class ServiceWorker : MonoBehaviour
         Vector3 size = hallPrefab.GetComponent<Collider>().bounds.size;
         Debug.Log("length=" + size);
 
-        Instantiate(playerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+        Instantiate(playerPrefab, new Vector3(0, 1, 0), Quaternion.identity);
         for ( int i = 1; i <= 5; i++)
         {
             Instantiate(hallPrefab, new Vector3(5 * i, 1, 0), Quaternion.identity);

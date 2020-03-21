@@ -6,6 +6,7 @@ public class PlayerContronller : MonoBehaviour
 {
     public float walk_speed = 8f;
     public float jump_speed = 7f;
+    
 
     // to keep our rigidbody
     Rigidbody rb;
@@ -25,6 +26,8 @@ public class PlayerContronller : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         coll = GetComponent<Collider>();
+
+        rb.MovePosition(new Vector3(0f, 0.01f, 0f));
     }
 
     // Update is called once per frame
@@ -66,8 +69,11 @@ public class PlayerContronller : MonoBehaviour
         }
     }
 
+    //the camera rotates not the player itself
     void RotationHandler()
     {
+
+
         /*if ( Input.GetAxis("Mouse X") < 0 )
         {
             Debug.Log("handling Mouse movment left");
@@ -79,23 +85,15 @@ public class PlayerContronller : MonoBehaviour
             transform.Rotate(0, 90 * Time.deltaTime, 0);
         }*/
 
-        //Hole X und Y von der Maus
-        float horizontal = Input.GetAxis("Mouse X");
-        float vertical = Input.GetAxis("Mouse Y");
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, transform.eulerAngles.z);
 
-        //Wenn linke Maustaste gedrückt
-        if (Input.GetMouseButton(0))
-        {
-            //rotiere die Kamera 
-            //Time.deltaTime: Sekunden seit dem letzten Frame
-            //Time.deltaTime * rotationSpeed: Damit sich die Maus gleichmäßig bewegt
-            transform.Rotate(-vertical * Time.deltaTime * rotationSpeed, 
-                        horizontal * Time.deltaTime * rotationSpeed, 0);
-        }
     }
 
     void WalkHandler()
     {
+
+        //transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, Camera.main.transform.localEulerAngles.y, transform.localEulerAngles.z); 
+
         rb.velocity = new Vector3(0, rb.velocity.y, 0);
 
         // Distance ( speed = distance / time --> distance = speed * time
@@ -119,6 +117,29 @@ public class PlayerContronller : MonoBehaviour
 
         // Move the Rigidbody
         rb.MovePosition(newPos);
+/*
+        // Input on X ( Horizontal )
+        float hAxis = Input.GetAxis("Horizontal");
+
+        // Input on Z ( Vertical )
+        float vAxis = Input.GetAxis("Vertical");
+
+
+
+
+        float distance = walk_speed * Time.deltaTime;
+
+        transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, Camera.main.transform.localEulerAngles.y, transform.localEulerAngles.z); 
+
+
+        float dx = hAxis * distance * Mathf.Sin(Mathf.Deg2Rad * Camera.main.transform.rotation.eulerAngles.y);
+        float dy = vAxis * distance * Mathf.Cos(Mathf.Deg2Rad * Camera.main.transform.rotation.eulerAngles.y);
+
+        Vector3 movment = new Vector3(dx, 0f, dy);
+        Vector3 currPos = transform.position;
+        Vector3 newPos = currPos + movment;
+
+        rb.MovePosition(newPos);*/
     }
     
     void JumpHandler()

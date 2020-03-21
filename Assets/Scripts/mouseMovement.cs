@@ -27,7 +27,16 @@ public class mouseMovement : MonoBehaviour
             //rotiere die Kamera 
             //Time.deltaTime: Sekunden seit dem letzten Frame
             //Time.deltaTime * bewegungsgeschwindigkeitMaus: Damit sich die Maus gleichmäßig bewegt
-            transform.Rotate(-vertical * Time.deltaTime * bewegungsgeschwindigkeitMaus, horizontal * Time.deltaTime * bewegungsgeschwindigkeitMaus, 0);
+            transform.Rotate(-vertical * Time.deltaTime * bewegungsgeschwindigkeitMaus, 
+                    horizontal * Time.deltaTime * bewegungsgeschwindigkeitMaus, 0);
+
+            //float drx = -vertical * Time.deltaTime * bewegungsgeschwindigkeitMaus;
+            //float dry = horizontal * Time.deltaTime * bewegungsgeschwindigkeitMaus;
+
+
+            //transform.rotation.eulerAngles = Quaternion.Euler(transform.rotation.x + drx, transform.rotation.y, 0f);
+             transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, 0f);
+        
         }
 
     }
