@@ -22,7 +22,18 @@ public class szeneSwitch : MonoBehaviour
     void OnMouseDown()
     {
             //SceneManager.LoadScene (sceneName:"SphereView");
-            SceneManager.LoadScene (sceneName:scene);
+            //SceneManager.LoadScene (sceneName:scene);
 
+    }
+
+    void OnMouseOver()
+    {
+        Debug.Log("hover over image");
+         if (Input.GetMouseButtonDown(1))
+         {
+              Debug.Log("Load Scene" + scene);
+              SceneManager.LoadScene (sceneName:scene);
+         }
+             
     }
 }
