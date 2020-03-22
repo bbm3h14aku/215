@@ -25,7 +25,11 @@ public class virusSign : MonoBehaviour
          for ( int i = 1; i <= 20; i++)
         {
             Instantiate(paperPrefab, new Vector3(transform.position.x, transform.position.y + 5 *i, transform.position.z), Quaternion.identity);
-        }    
+        }  
+         
     }
+
+    
+
 
 }
