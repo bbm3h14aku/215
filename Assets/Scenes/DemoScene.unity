@@ -437,6 +437,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 1916617588411368075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Sie sind die unauff\xE4lligsten Orientierungsmuster, die sich denken
+        lassen. Menschen sterben f\xFCr eine Idee fix, f\xFCr eine \xDCberzeugung.
+        Sie haben vielleicht nichts, aber immerhin den Glauben, der Berge versetzt.
+        Ein ganzes Leben reicht oft nicht aus, um ein einmal ein gebranntes Bild wieder
+        zu l\xF6schen. Bilder \u2013 Wunschbilder, Schreckbilder \u2013 sind m\xE4chtig.\"
+        (Schl\xF6gel, S. 243)"
+      objectReference: {fileID: 0}
     - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
       propertyPath: m_Name
@@ -496,6 +506,20 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231228847314941988, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Die Karten im Kopf sind gewisserma\xDFen die Welt, die jeder mit sich
+        herumtr\xE4gt, der Speicher und Bildvorrat. Mental Maps sprechen von vornherein
+        nicht von einem Raum, sondern von vielen R\xE4umen. Die Rede von den mental
+        maps impliziert so viele R\xE4ume, wie es Sichtweisen, Wahrnehmungsweisen,
+        Erfahrungsweisen gibt. [\u2026] So viele Karten, wie es Wahrnehmungsweisen
+        gibt, und so viele Wahrnehmungsweisen, wie es Individuen gibt. Die Welt, erst
+        einmal so atomisiert oder verfl\xFCssigt, kann wieder zusammengesetzt werden;
+        sie wird nach diesem Durchgang nicht mehr dieselbe sein wie zuvor. (Schl\xF6gel,
+        S. 244) Bild: Kostrzyn | K\xFCstrin, CC-BY-SA @Reza Ghadyani, Kulturerben
+        | Culture Heirs e.V "
       objectReference: {fileID: 0}
     - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
@@ -679,6 +703,227 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &522719714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 31935114381715523, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5a81231772528fb69a6e6b03b8ea088, type: 2}
+    - target: {fileID: 362264148569719966, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 1916617588411368075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: Derzeit kein Objekt im Speicher
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Name
+      value: HallElement (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0100600105
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 181.15298
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231228847314941988, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Die Karten im Kopf sind gewisserma\xDFen die Welt, die jeder mit sich
+        herumtr\xE4gt, der Speicher und Bildvorrat. Mental Maps sprechen von vornherein
+        nicht von einem Raum, sondern von vielen R\xE4umen. Die Rede von den mental
+        maps impliziert so viele R\xE4ume, wie es Sichtweisen, Wahrnehmungsweisen,
+        Erfahrungsweisen gibt. [\u2026] So viele Karten, wie es Wahrnehmungsweisen
+        gibt, und so viele Wahrnehmungsweisen, wie es Individuen gibt. Die Welt, erst
+        einmal so atomisiert oder verfl\xFCssigt, kann wieder zusammengesetzt werden;
+        sie wird nach diesem Durchgang nicht mehr dieselbe sein wie zuvor. (Schl\xF6gel,
+        S. 244) Bild: Kostrzyn | K\xFCstrin, CC-BY-SA @Reza Ghadyani, Kulturerben
+        | Culture Heirs e.V "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 9129422107310052076, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4888400056717103189b86d9fad3d15b, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0234b62cea66c3980b195a272734b6ae, type: 3}
+--- !u!1001 &526052318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 31935114381715523, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 361ca3233cd649419983fbeffa00ecd4, type: 2}
+    - target: {fileID: 362264148569719966, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 1916617588411368075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Sie sind die unauff\xE4lligsten Orientierungsmuster, die sich denken
+        lassen. Menschen sterben f\xFCr eine Idee fix, f\xFCr eine \xDCberzeugung.
+        Sie haben vielleicht nichts, aber immerhin den Glauben, der Berge versetzt.
+        Ein ganzes Leben reicht oft nicht aus, um ein einmal ein gebranntes Bild wieder
+        zu l\xF6schen. Bilder \u2013 Wunschbilder, Schreckbilder \u2013 sind m\xE4chtig.\"
+        (Schl\xF6gel, S. 243)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Name
+      value: HallElement (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 22.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9999494
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0100600105
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 181.15298
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933095894580195679, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231228847314941988, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Die Karten im Kopf sind gewisserma\xDFen die Welt, die jeder mit sich
+        herumtr\xE4gt, der Speicher und Bildvorrat. Mental Maps sprechen von vornherein
+        nicht von einem Raum, sondern von vielen R\xE4umen. Die Rede von den mental
+        maps impliziert so viele R\xE4ume, wie es Sichtweisen, Wahrnehmungsweisen,
+        Erfahrungsweisen gibt. [\u2026] So viele Karten, wie es Wahrnehmungsweisen
+        gibt, und so viele Wahrnehmungsweisen, wie es Individuen gibt. Die Welt, erst
+        einmal so atomisiert oder verfl\xFCssigt, kann wieder zusammengesetzt werden;
+        sie wird nach diesem Durchgang nicht mehr dieselbe sein wie zuvor. (Schl\xF6gel,
+        S. 244) Bild: Kostrzyn | K\xFCstrin, CC-BY-SA @Reza Ghadyani, Kulturerben
+        | Culture Heirs e.V "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 9129422107310052076, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ad4e39c51220354a7ac20fce9bd4e4bd, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0234b62cea66c3980b195a272734b6ae, type: 3}
 --- !u!1001 &619616939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1612,6 +1857,15 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 1916617588411368075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Wer an diese Landschaften im Kopf herankommen will muss Menschen zum
+        Sprechen bringen, ihren Erz\xE4hlungen zuh\xF6ren. Doch im Grunde erweist
+        sich ihre Wirkung, \xFCberhaupt ihr Vorhandensein im schweigenden Vollzug.
+        Sie sind da, wie selbstverst\xE4ndlich, sie geben sich zu erkennen erst bei
+        Nachfrage.\""
+      objectReference: {fileID: 0}
     - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
       propertyPath: m_Name
@@ -1671,6 +1925,15 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7231228847314941988, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Solche Landschaften sind in Romanen verborgen oder in Gem\xE4lden,
+        auf die man bisher nicht geachtet hat. Sie sind schon Schulkindern vertraut,
+        die lernen, \"wo ihr Vaterland liegt\". So pr\xE4gt sich die Kartographie
+        der Nachbarschaft ein: mit Freund und Feind. Man nennt solche Landschaften
+        imagin\xE4r, virtuell.\" (Schl\xF6gel, S. 243)"
       objectReference: {fileID: 0}
     - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
@@ -1948,7 +2211,7 @@ PrefabInstance:
     - target: {fileID: 2933095894580195679, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.809
+      value: 28.54
       objectReference: {fileID: 0}
     - target: {fileID: 2933095894580195679, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
         type: 3}
@@ -1958,7 +2221,7 @@ PrefabInstance:
     - target: {fileID: 2933095894580195679, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.68
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 2933095894580195679, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
         type: 3}
