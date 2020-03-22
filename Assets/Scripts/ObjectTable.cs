@@ -5,11 +5,9 @@ using UnityEngine;
 public class ObjectTable : MonoBehaviour
 {
     public string text;
-    public int textSize;
-    public int spacesTillReturn;
     public TextMesh mech;
     
-    private Rect windowRect = new Rect (20, 20, 300, 200);
+    private Rect windowRect = new Rect (20, 20, 300, 300);
     private bool showInfo = false;
 
 
@@ -22,34 +20,8 @@ public class ObjectTable : MonoBehaviour
     // Update is called once per frame
     void Update()
     { 
-        /*mech.fontSize = textSize;
-
         
-
-        string modifiedLine="";
-        int spaces=0;
-        foreach (char value in text)
-        {
-            if (value == ' ')
-            {
-                spaces++;
-                if (spaces == spacesTillReturn) //To insert \n after every 9th word: if((spaces%9)==0)
-                {
-                    modifiedLine += "\n";
-                    spaces = 0;
-                }
-                else
-                    modifiedLine += value;
-            }
-            else
-            {
-                modifiedLine += value;
-            }                
-        }
-
-
-
-        mech.text = modifiedLine;*/
+        mech.text = "Klick Mich!";
     }
 
     
@@ -64,15 +36,15 @@ public class ObjectTable : MonoBehaviour
         
 
         if(showInfo)
-            windowRect = GUI.Window(0, windowRect, DoMyWindow, "My Window");
+            windowRect = GUI.Window(0, windowRect, DoMyWindow, "Infos");
     }
 
     // Make the contents of the window
     void DoMyWindow(int windowID)
     {
-        GUI.Label(new Rect(10, 10, 200, 200), text);
+        GUI.Label(new Rect(10, 10, 250, 250), text);
 
-        if (GUI.Button(new Rect(10, 20, 100, 20), "Close"))
+        if (GUI.Button(new Rect(10, 250, 100, 20), "Close"))
         {
             showInfo = false;
         }

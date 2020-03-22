@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3120704895654652291}
   - component: {fileID: 3120704895654652290}
   - component: {fileID: 3120704895654652349}
-  - component: {fileID: 3120704895654652348}
+  - component: {fileID: 3810146152492359526}
   m_Layer: 0
   m_Name: ObjectTable
   m_TagString: Untagged
@@ -93,7 +93,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3120704895654652348
+--- !u!114 &3810146152492359526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,9 +105,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4087dede2615732d93f7b8f434fdbd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: das ist ein Test
-  textSize: 11
-  spacesTillReturn: 6
+  text: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+    tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+    vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+    amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+    duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+    Lorem ipsum dolor sit amet.
   mech: {fileID: 3120704897152444211}
 --- !u!1 &3120704897152444210
 GameObject:
