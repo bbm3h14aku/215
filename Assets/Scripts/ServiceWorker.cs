@@ -38,12 +38,12 @@ public class ServiceWorker : MonoBehaviour
 
         // dont destroy this object when loading scenes
         DontDestroyOnLoad(gameObject);
+        Instantiate(playerPrefab, new Vector3(0, 1, 0), Quaternion.identity);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(playerPrefab, new Vector3(0, 1, 0), Quaternion.identity);
         /*
         for ( int i = 1; i <= 5; i++)
         {
