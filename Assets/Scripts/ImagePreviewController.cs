@@ -20,9 +20,7 @@ public class ImagePreviewController : MonoBehaviour
 
     void OnMouseDown()
     {
-        Debug.Log("mouse click detected");
-        //Resources.Load("SphereView");
-        SceneManager.LoadScene("SphereView");
+        
     }
 
     void OnMouseOver()
