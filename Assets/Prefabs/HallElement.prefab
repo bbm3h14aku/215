@@ -353,7 +353,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2933095894580195679}
   - component: {fileID: 6342875635931976967}
-  - component: {fileID: 901679660710655267}
   m_Layer: 0
   m_Name: HallElement
   m_TagString: Untagged
@@ -389,22 +388,10 @@ BoxCollider:
   m_GameObject: {fileID: 1993094938927702075}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0.5}
---- !u!114 &901679660710655267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993094938927702075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57258a72708207d3ab675be409ecf778, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2188848229205903685
 GameObject:
   m_ObjectHideFlags: 0
@@ -624,11 +611,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5646320330523598051, guid: ef77a6db1d414fe7291a7995acdd29be,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6982983219661926692, guid: ef77a6db1d414fe7291a7995acdd29be,
         type: 3}
       propertyPath: m_Name
       value: ImagePreview
       objectReference: {fileID: 0}
+    - target: {fileID: 8618318452131547774, guid: ef77a6db1d414fe7291a7995acdd29be,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 13cddbd230627693c9980c7ce4505b3f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef77a6db1d414fe7291a7995acdd29be, type: 3}
 --- !u!4 &2739069631265689457 stripped
