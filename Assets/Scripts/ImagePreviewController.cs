@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ImagePreviewController : MonoBehaviour
 {
@@ -15,6 +16,13 @@ public class ImagePreviewController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("mouse click detected");
+        Resources.Load("SphereView");
+        //SceneManager.LoadScene("HallScene");
     }
 
     void OnMouseOver()

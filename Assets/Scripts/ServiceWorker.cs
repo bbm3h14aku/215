@@ -9,6 +9,7 @@ public delegate void OnStateChangeHandler();
 public class ServiceWorker : MonoBehaviour
 {
     public static ServiceWorker instance = null;
+
     public string keyWord;
     public string[] results;
     public int current_page;
@@ -46,7 +47,7 @@ public class ServiceWorker : MonoBehaviour
         Instantiate(playerPrefab, new Vector3(0, 1, 0), Quaternion.identity);
         for ( int i = 1; i <= 5; i++)
         {
-            Instantiate(hallPrefab, new Vector3(5.33f * i, 1, 0), Quaternion.identity);
+            Instantiate(hallPrefab, new Vector3(5 * i, 1, 0), Quaternion.identity);
         }
     }
 

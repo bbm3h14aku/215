@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 13cddbd230627693c9980c7ce4505b3f, type: 2}
+  - {fileID: 2100000, guid: 8f43c336bbbb5b77193ffd6d3c322e50, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -104,5 +104,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 451a83db7d9bbfd5b9b1876a1cf7d877, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  url: https://docs.unity3d.com/uploads/Main/ShadowIntro.png
-  imageTexture: {fileID: 0}
