@@ -19,5 +19,6 @@ public class HallElement : MonoBehaviour
 
     private void initChilds()
     {
+
     }
 }
