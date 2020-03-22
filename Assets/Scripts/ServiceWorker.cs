@@ -18,6 +18,8 @@ public class ServiceWorker : MonoBehaviour
     public GameObject hallPrefab;
     public GameObject playerPrefab;
 
+    private AssetBundle assetBundle;
+
     // Called when the Object is initialized
     void Awake()
     {
@@ -41,14 +43,14 @@ public class ServiceWorker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 size = hallPrefab.GetComponent<Collider>().bounds.size;
-        Debug.Log("length=" + size);
-
         Instantiate(playerPrefab, new Vector3(0, 1, 0), Quaternion.identity);
+        /*
         for ( int i = 1; i <= 5; i++)
         {
             Instantiate(hallPrefab, new Vector3(5 * i, 1, 0), Quaternion.identity);
         }
+        Debug.Log("loading custome scenes form resources");
+        */       
     }
 
     // Update is called once per frame
