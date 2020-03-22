@@ -188,6 +188,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 362264148569719966, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 16b7fbbfd1f7f790fa414946096dd299, type: 2}
     - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
       propertyPath: m_Name
@@ -248,6 +253,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0234b62cea66c3980b195a272734b6ae, type: 3}
 --- !u!1 &185018432
@@ -417,6 +427,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 31935114381715523, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8a4de479514136890ad45c76de5ee679, type: 2}
+    - target: {fileID: 362264148569719966, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
     - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
       propertyPath: m_Name
@@ -477,6 +497,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 9129422107310052076, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4ebce595546ed8e47a4e2e0f0e484da6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0234b62cea66c3980b195a272734b6ae, type: 3}
 --- !u!1001 &281381160
@@ -607,7 +637,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -743,6 +773,27 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 31935114381715523, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 880994bee4071abbd901816ab1cd16b5, type: 2}
+    - target: {fileID: 362264148569719966, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 1916617588411368075, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Karten erscheinen hier gleichsam als eine andere \"Ph\xE4nomenologie
+        des Geistes\" (Hegel) als \"Zeit in Karten gefasst. [\u2026] Weltbilder, Abbildungen
+        von Welt, Projektionen von Welt, f\xFCr die alles gilt, was f\xFCr historische
+        Texte in der Regel auch gilt: die Kriterien der Quellen- und Ideologiekritik.
+        Karten bilden Macht ab und sind Machtinstrumente. Jede Zeit hat ihre eigenen
+        Kartenvorstellung, ihre eigene kartographische Rhetorik, ihr eigenes kartographisches
+        Narrativ.\" (Schl\xF6gel, S. 12) "
+      objectReference: {fileID: 0}
     - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
       propertyPath: m_Name
@@ -803,6 +854,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7231228847314941988, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: text
+      value: "\"Landschaften im Kopf kann man nicht vermessen, jedenfalls nicht mit
+        den Methoden der Astronomie oder Trigonometrie. Sie sind deshalb nicht weniger
+        genau und nicht weniger wirklich. Sie bestehen aus einem anderen Material,
+        aus Bildern, Erinnerungen, Ger\xFCchen, aber sind deswegen nicht weniger eindr\xFCcklich.\"
+        (Schl\xF6gel, S. 243)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 9129422107310052076, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0596a8b860e2444508250e355b1f36da, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0234b62cea66c3980b195a272734b6ae, type: 3}
 --- !u!1001 &805288889
@@ -1002,7 +1072,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1532,6 +1602,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 31935114381715523, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8795befef37cd6dc4bf577757c7f1b57, type: 2}
+    - target: {fileID: 362264148569719966, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
     - target: {fileID: 1993094938927702075, guid: 0234b62cea66c3980b195a272734b6ae,
         type: 3}
       propertyPath: m_Name
@@ -1592,6 +1672,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7574466877410137730, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 9129422107310052076, guid: 0234b62cea66c3980b195a272734b6ae,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3297848eeaf6484d0990a586056c04d1, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0234b62cea66c3980b195a272734b6ae, type: 3}
 --- !u!1 &1466857885
@@ -1781,7 +1871,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1830,11 +1920,31 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 119877406543535256, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
+    - target: {fileID: 380899240338038847, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f01020ed4a2a81550a76a511356bfab8, type: 2}
+    - target: {fileID: 1965948045203123157, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
     - target: {fileID: 1993094938927702075, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
         type: 3}
       propertyPath: m_Name
       value: CornerElement
       objectReference: {fileID: 0}
+    - target: {fileID: 2076813524613504559, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
     - target: {fileID: 2933095894580195679, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1900,6 +2010,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 8362948495540890000, guid: 79c20edeb3bd64a62a5f20bdbf1e76de,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f01020ed4a2a81550a76a511356bfab8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79c20edeb3bd64a62a5f20bdbf1e76de, type: 3}
 --- !u!1001 &1922678519
@@ -2173,7 +2288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f044745a70fe60519912bb26c04b67db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
