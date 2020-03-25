@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 103557022}
   - component: {fileID: 103557021}
   - component: {fileID: 103557025}
+  - component: {fileID: 103557026}
   m_Layer: 0
   m_Name: SpherePreview
   m_TagString: Untagged
@@ -370,8 +371,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103557020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 887, y: -80, z: 652}
-  m_LocalScale: {x: 276.85, y: 276.85, z: 276.85}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children:
   - {fileID: 8363071}
   m_Father: {fileID: 0}
@@ -394,6 +395,20 @@ RotationConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources: []
+--- !u!114 &103557026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103557020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5a616feead01540bb382deda867b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonPrefab: {fileID: 373213900585299712, guid: 4b8b00dcc2b55524389e54edd6c4fa73,
+    type: 3}
 --- !u!1 &190783552
 GameObject:
   m_ObjectHideFlags: 0
