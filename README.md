@@ -10,3 +10,5 @@ Die aktuelle Ausnahmesituation bietet die großartige Chance, bestehende Barrier
     Menschen mit körperlichen Einschränkungen, denen die Bewegung durch ein echtes Museum schwerfällt
 
 Gleichzeitig bietet das Angebot des virtuellen Museums eine Unterstützung für Eltern, die ihren Kindern eine Beschäftigung bieten möchten und derzeit nicht mit Ihnen in ein echtes Museum gehen können.
+
+Dieses Projekt steht unter der GPL V3.
