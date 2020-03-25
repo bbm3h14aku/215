@@ -7,7 +7,6 @@ public class mouseMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     //bewegungsgeschwindigkeit
