@@ -34,17 +34,17 @@ public class loadTextureToImagePreview : MonoBehaviour
     {
         
 
-        string name = textureName.text;
+        string path = "360View/Wald/" + textureName.text;
 
-        Texture2D texture  = (Texture2D) Resources.Load(name);
+        Texture2D texture  = (Texture2D) Resources.Load(path);
         if (texture != null)
         {
-            Debug.Log("load Texture: " + name);
+            Debug.Log("load Texture: " + path);
             sphere.GetComponent<Renderer>().material.mainTexture = texture;
         }
         else 
         { 
-            Debug.Log("Error loading Texture: " + name);
+            Debug.Log("Error loading Texture: " + path);
         }
     }
 }
