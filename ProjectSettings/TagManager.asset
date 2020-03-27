@@ -8,6 +8,7 @@ TagManager:
   - Image
   - Text
   - ServiceWorker
+  - lightObject
   layers:
   - Default
   - TransparentFX

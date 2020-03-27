@@ -1,2 +1,0 @@
-Dies ist das Material der Sphere. Das Material hat einen feste Shader. 
-Die Textur ändert sich regelmäßig und bildet solit die "Illusion" von räumlichkeit
