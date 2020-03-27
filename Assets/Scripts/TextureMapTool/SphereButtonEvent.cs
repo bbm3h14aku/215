@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class SphereButtonEvent : MonoBehaviour
 {
 
@@ -9,12 +11,17 @@ public class SphereButtonEvent : MonoBehaviour
 
     private double lastButtonSetTime = System.DateTime.Now.TimeOfDay.TotalMilliseconds;
 
-    private Rect windowRect = new Rect(Screen.width, Screen.height, Screen.width + 100, Screen.height + 100);
+    private Vector2 windowSize;
+    private Vector2 windowPosition;
+    private Rect windowRect;
+    private bool showInfo = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        windowSize = new Vector2(200, 100);
+        windowPosition = new Vector2(Screen.width/2 - windowSize.x/2, Screen.height/2 - windowSize.y/2);
+        windowRect = new Rect(windowPosition.x, windowPosition.y, windowSize.x, windowSize.y);
         //buttonPrefab = GameObject.Find("Sphere");
         
     }
@@ -23,13 +30,28 @@ public class SphereButtonEvent : MonoBehaviour
     void Update()
     {
         handleCreateButton();
-        //windowRect = GUI.Window(0, windowRect, createWindowContent, "Zieltextur eingeben: ");
         
     }
 
+    void OnGUI()
+    {
+        if(showInfo){
+            windowRect = GUI.Window(0, windowRect, createWindowContent, "Zieltextur eingeben: ");
+            string stringToEdit = "";
+            stringToEdit =  GUI.TextField(new Rect(windowPosition.x, windowPosition.y + 20, 200, 20), stringToEdit, 25);
+            if (GUI.Button(new Rect(windowPosition.x, windowPosition.y + 60, 100, 20), "OK"))
+            {
+                showInfo = false;
+            }
+        }
+
+    }
 
     void createWindowContent(int windowID)
     {
+
+        
+
         /*GUI.Label(new Rect(10, 10, 250, 250), text);
 
         if (GUI.Button(new Rect(10, 250, 100, 20), "Close"))
@@ -58,6 +80,8 @@ public class SphereButtonEvent : MonoBehaviour
 
             //save the creation time to wait until the next butten can be made
             lastButtonSetTime = System.DateTime.Now.TimeOfDay.TotalMilliseconds;
+
+            showInfo = true;
         } 
     }
 

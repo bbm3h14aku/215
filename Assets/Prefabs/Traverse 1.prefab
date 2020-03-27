@@ -58,7 +58,11 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+<<<<<<< HEAD:Assets/Prefabs/Traverse 1.prefab
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+=======
+  - {fileID: 2100000, guid: 4efb5037c6b6cb94eb36234307188d93, type: 2}
+>>>>>>> ad36340589d938ebbc6a8a996ff589eee8cb41b2:Assets/Prefabs/Welcome 2.prefab
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
