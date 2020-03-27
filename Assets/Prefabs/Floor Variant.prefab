@@ -72,6 +72,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2795862723800549631, guid: 26f6d11f098cb2b6790f5c8b150688d1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3312157834643980147, guid: 26f6d11f098cb2b6790f5c8b150688d1,
         type: 3}
       propertyPath: m_Enabled
